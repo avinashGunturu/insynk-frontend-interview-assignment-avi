@@ -1,0 +1,126 @@
+.categorymain {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+
+
+/* add header  */
+
+.addHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 107, 246);
+    height: 65px;
+}
+.addexptext {
+    color: rgb(1, 1, 100);
+    font-weight: 600;
+    font-size: 18px ;
+}
+
+/* single category */
+.categoresList {
+    margin-bottom: 20px;
+}
+.eachCategory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(41, 41, 173);
+}
+.crossbtn {
+    color: #fa3737;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* adding box */
+
+
+
+.addtext {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.addbutton {
+    width: fit-content;
+    margin: 10px 0px;
+    padding: 10px 16px;
+    background-color: rgb(82, 82, 213);
+    color: #fff;
+    font-size: 18;
+    font-weight: 600;
+    border: 0px;
+    float: right;
+    cursor: pointer;
+}
+
+/* model window */
+.modelwindow {
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    background-color: #fffbfb;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.errortext {
+    margin: 10px 0px;
+    color: #050c5c;
+    font-size: 16px;
+    font-weight: 15px;
+}
+.actiondiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cancel ,.Confiram {
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel {
+    background-color: rgb(221, 221, 255);
+    color: #fff;
+   
+}
+
+.Confiram {
+    background-color: #050c5c;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 440px) {
+   .categorymain{
+    width: 100%;
+   }
+   .eachCategory{
+    padding: 5px 20px;
+   }
+   .addbutton{
+    padding: 16px 42px;
+   }
+   .addtext{
+    padding: 16px;
+    margin: 0px auto;
+    width: 100%;
+   }
+  }

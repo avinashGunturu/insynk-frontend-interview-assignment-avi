@@ -1,0 +1,145 @@
+/* main */
+
+.addMain {
+    width: 400px;
+    margin: auto;
+}
+
+/* add header  */
+
+.addHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(107, 107, 246);
+    height: 35px;
+}
+.addexptext {
+    color: rgb(1, 1, 100);
+    font-weight: 600;
+    font-size: 18px ;
+}
+
+/* add footer */
+
+.addFotter {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    width: inherit;
+}
+
+.button {
+    padding: 10px 16px;
+    width: 45%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Canclebtn {
+    background-color: #fff;
+    color: rgb(54, 54, 202);
+    border: 1px solid rgb(54, 54, 202);
+    text-decoration: none;
+}
+
+.addbtn {
+    background-color: rgb(54, 54, 202);
+    color: #fff;
+    border: 1px solid rgb(54, 54, 202);
+}
+
+/* all fields */
+.types{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cashin ,.cashout {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(204, 204, 250);
+    padding: 10px 8px;
+    border-radius: 4px;
+    color: rgb(16, 16, 94);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cashin.active ,.cashout.active {
+    background-color: blue;
+    color: #fff;
+}
+
+.inptitle {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.amount ,.Categorys ,.date,.description {
+    width: 90%;
+    /* margin: auto; */
+    padding: 10px;
+
+}
+.Categorys {
+    width: 95%;
+}
+
+.description {
+    resize: none;
+}
+
+.Addedexptext {
+    text-align: center;
+    padding: 10px 16px;
+    background-color: rgb(6, 104, 6);
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* remove */
+.removeLink {
+    background-color: blue;
+    color: #ffF;
+    padding: 8px 16px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.addHeader {
+    position: relative !important;
+}
+
+@media only screen and (max-width: 440px) { 
+
+
+    .addBody {
+        width: 100%;
+    }
+    .amount, .Categorys, .date, .description {
+        width: 100%;
+     
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .Categorys options {
+        width: 100%;
+    }
+}

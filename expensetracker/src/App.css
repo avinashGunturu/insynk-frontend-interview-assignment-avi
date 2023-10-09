@@ -1,0 +1,12 @@
+.expenselist {
+  width: 450px;
+  margin: auto;
+}
+
+/* If the screen size is 400px wide or less, hide the element */
+@media only screen and (max-width: 440px) {
+  .expenselist {
+    width:100%;
+    margin: auto;
+  }
+}
